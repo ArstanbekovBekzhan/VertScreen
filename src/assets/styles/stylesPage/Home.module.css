@@ -1,15 +1,77 @@
-.Homepage{
+.Homepage {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-.Content_area{
-    width: 789px;
-    height: 1402px;
+
+.Content_area {
+    width: 60vw;
+    height: 100vw;
     background: #fff;
     border-radius: 30px;
     display: flex;
-    justify-content: center;
     align-items: center;
     font-size: 25px;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+}
+
+.Links {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 50px 0;
+    width: 100%;
+}
+
+.Link {
+    margin: 20px;
+    width: 40%;
+    height: 180px;
+    max-width: 100%; 
+    border-radius: 29px;
+    border: 2.048px solid rgba(0, 0, 0, 0.10);
+    background: #fff;
+    box-shadow: -2.048px -6.142857551574707px 0px 0px rgba(0, 0, 0, 0.10) inset, 0px 2.048px 6.142857551574707px 0px rgba(0, 0, 0, 0.20);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    transition: 0.6s;
+}
+.Link img{
+    width: 40%;
+}
+.Link:hover {
+    transform: scale(0.9);
+    background: yellow;
+}
+
+@media (max-width: 1200px) {
+    .Links {
+        justify-content: center;
+     
+    }
+ 
+    .Link {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        font-size: 20px;
+        height: 200px;
+    }
+    .Link img{
+        width: 100px;
+        height: 100px;
+    }
+}
+@media (max-width: 550px) {
+    .Link {
+        padding: 0;
+        font-size: 10px;
+    }
+    .Link img{
+        width: 50px;
+        height: 50px;
+    }
 }
