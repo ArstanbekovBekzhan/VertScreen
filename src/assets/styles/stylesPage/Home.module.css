@@ -1,0 +1,15 @@
+.Homepage{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.Content_area{
+    width: 789px;
+    height: 1402px;
+    background: #fff;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}

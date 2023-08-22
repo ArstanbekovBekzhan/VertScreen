@@ -1,0 +1,37 @@
+.header {
+    width: 100vw;
+    height: 79px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-radius: 0px 0px 30px 30px;
+    padding: 0 20px;
+    font-size: 25px;
+}
+.logo img {
+    max-width: 150px;
+}
+
+.data {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    flex-wrap: wrap;
+}
+@media (max-width: 768px) {
+    .header {
+        font-size: 20px; 
+    }
+    
+    .logo img {
+        max-width: 120px;
+    }
+    
+    .data {
+        width: 40%; 
+    }
+}
