@@ -1,0 +1,12 @@
+.Button{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    border: 2.05px solid #0000001A;
+    background: url("../image/buttons.png") #fff center center;
+    background-size: contain;
+    position: fixed;
+    top: 50%;
+    left: 50px;
+    z-index: 10;
+}

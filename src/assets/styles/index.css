@@ -8,8 +8,8 @@
 }
 .container{
     margin-top: 50px;
-    padding: 50px;
     background: url('../image/Bg.png');
+    min-height: calc(100vh - 50px);
 }
 p {
     color: #707070;
@@ -17,8 +17,4 @@ p {
 a{
     text-decoration: none;
     color: black;
-}
-img{
-    width: 100%;
-    height: 100%;
 }

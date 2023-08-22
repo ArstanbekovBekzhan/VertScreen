@@ -34,7 +34,7 @@ const Header = () => {
         <p>{dayOfMonth}{month}</p>
       </div>
       <div className={HStyle.right}>
-      <p>{hours}:{minutes < 10 ? "0" : ""}{minutes}</p>
+      <h3>{hours}:{minutes < 10 ? "0" : ""}{minutes}</h3>
       </div>
     </header>
   );

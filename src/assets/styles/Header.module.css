@@ -8,9 +8,11 @@
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 10;
     border-radius: 0px 0px 30px 30px;
     padding: 0 20px;
     font-size: 25px;
+    box-shadow: 0px 4px 17px 3px #00000040;
 }
 .logo img {
     max-width: 150px;
