@@ -27,4 +27,96 @@ a{
     display: flex;
     align-items: center;
     flex-direction: column;
+    height: 100vh;
+}
+.Events_bottom h2{
+    font-size: 35px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+.search input{
+    margin: 30px 0;
+    border: 2.05px solid rgba(0, 0, 0, 0.1);
+    width: 30vw;
+    height: 40px;
+    font-size: 25px;
+    font-weight: 400;
+    border-radius: 20px;
+    padding: 10px;
+    padding-right: 40px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.404);
+}
+.searchImg{
+    margin-left: -40px;
+}
+.answers{
+    font-size: 20px;
+    background: rgba(238, 238, 238, 1);
+    width: 30vw;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: -50px;
+    margin-left: 10px;
+}
+.answers p{
+    margin: 5px;
+    padding: 5px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.568);
+}
+.Cars{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Car{
+    width: 23vw;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: -2.047619104385376px -6.142857551574707px 0px 0px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0px 2.047619104385376px 6.142857551574707px 0px rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+.Car *{
+    margin: 5px;
+}
+.Car:first-child{
+    width: 35.5vw;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    linear-gradient(0deg, #2FB3FE, #2FB3FE);    
+}
+.Car:nth-child(2){
+    width: 35.5vw;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    linear-gradient(0deg, #2E75FF, #2E75FF);    
+}
+.Car:nth-child(3){
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    linear-gradient(0deg, #2E36FF, #2E36FF);    
+}
+.Car:nth-child(4){
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    linear-gradient(0deg, #7D2EFF, #7D2EFF);    
+}
+.Car:nth-child(5){
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    linear-gradient(0deg, #B02EFF, #B02EFF);    
+}
+.Car p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.textTrue{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }

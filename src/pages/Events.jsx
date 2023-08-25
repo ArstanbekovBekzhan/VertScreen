@@ -2,6 +2,7 @@ import React from 'react';
 import EvsS from "../assets/styles/stylesPage/Events.module.css";
 import EvetSvg from "../assets/image/Evet.svg";
 import { Link } from 'react-scroll';
+import Events_bottom from '../component/EventsC/Events_bottom';
 
 const Events = () => {
   return (
@@ -13,11 +14,7 @@ const Events = () => {
           <img src={EvetSvg} alt="EvetSvg" />
         </Link>
       </div>
-      <div name='Events_bottom'>
-        <div className={EvsS.Events_bottom}>
-          Events_bottom
-        </div>
-      </div>
+      <Events_bottom EvsS={EvsS}/>
     </div>
   );
 }
