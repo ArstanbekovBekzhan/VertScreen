@@ -1,5 +1,4 @@
-.Events_top{
-    height: 100vh;
+.Events_top {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -7,38 +6,41 @@
     justify-content: center;
     height: 100vh;
 }
-.Events_top h1{
+.Events_top h1 {
     width: 45vw;
     font-size: 3.5vw;
     font-weight: 600;
-    line-height: 89px;
     letter-spacing: 0em;
 }
-a{
+
+a {
     display: flex;
     align-items: center;
     margin-top: 10px;
     font-size: 1.5vw;
     cursor: pointer;
 }
-.Events_bottom{
+
+.Events_bottom {
     background: #fff;
     padding: 50px;
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
 }
-.Events_bottom h2{
+
+.Events_bottom h2 {
     font-size: 35px;
 }
-.search{
+
+.search {
     display: flex;
     align-items: center;
     position: relative;
     z-index: 1;
 }
-.search input{
+
+.search input {
     margin: 30px 0;
     border: 2.05px solid rgba(0, 0, 0, 0.1);
     width: 30vw;
@@ -50,10 +52,12 @@ a{
     padding-right: 40px;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.404);
 }
-.searchImg{
+
+.searchImg {
     margin-left: -40px;
 }
-.answers{
+
+.answers {
     font-size: 20px;
     background: rgba(238, 238, 238, 1);
     width: 30vw;
@@ -63,17 +67,20 @@ a{
     margin-top: -50px;
     margin-left: 10px;
 }
-.answers p{
+
+.answers p {
     margin: 5px;
     padding: 5px;
     border-bottom: 2px solid rgba(0, 0, 0, 0.568);
 }
-.Cars{
+
+.Cars {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.Car{
+
+.Car {
     width: 23vw;
     margin: 20px;
     border-radius: 20px;
@@ -82,32 +89,39 @@ a{
     box-shadow: 0px 2.047619104385376px 6.142857551574707px 0px rgba(0, 0, 0, 0.2);
     color: #fff;
 }
-.Car *{
+
+.Car * {
     margin: 5px;
 }
-.Car:first-child{
+
+.Car:first-child {
     width: 35.5vw;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    linear-gradient(0deg, #2FB3FE, #2FB3FE);    
+    linear-gradient(0deg, #2FB3FE, #2FB3FE);
 }
-.Car:nth-child(2){
+
+.Car:nth-child(2) {
     width: 35.5vw;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    linear-gradient(0deg, #2E75FF, #2E75FF);    
+    linear-gradient(0deg, #2E75FF, #2E75FF);
 }
-.Car:nth-child(3){
+
+.Car:nth-child(3) {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    linear-gradient(0deg, #2E36FF, #2E36FF);    
+    linear-gradient(0deg, #2E36FF, #2E36FF);
 }
-.Car:nth-child(4){
+
+.Car:nth-child(4) {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    linear-gradient(0deg, #7D2EFF, #7D2EFF);    
+    linear-gradient(0deg, #7D2EFF, #7D2EFF);
 }
-.Car:nth-child(5){
+
+.Car:nth-child(5) {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    linear-gradient(0deg, #B02EFF, #B02EFF);    
+    linear-gradient(0deg, #B02EFF, #B02EFF);
 }
-.Car p{
+
+.Car p {
     color: #fff;
     font-size: 20px;
     font-weight: 400;
@@ -115,8 +129,262 @@ a{
     letter-spacing: 0em;
     text-align: left;
 }
-.textTrue{
+
+.Car div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.Car div h3 {
+    margin: 20px;
+}
+
+.textTrue div {
+    justify-content: space-between;
+    flex-direction: row;
+}
+.Events_Scanners{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Events_Scanners_head{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.Events_Scanners h3,.Events_Scanners_MIREA h3{
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 30px;
+}
+.Events_Scanners_head img{
+    width: 50%;
+}
+.Events_Scanners_head img:first-child,.Events_Scanners_head img:last-child{
+    width: 100px;
+    height: 100px;
+}
+.Events_Scanners_head img:first-child{
+    margin-top: 20%;
+}
+.Events_Scanners > img{
+    width: 100%;
+    height: 100%;
+}
+.Events_Scanners > a{
+    margin: 20vw 0;
+}
+.Events_Scanners_MIREA h3, .Events_Scanners_Navigator h3{
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 130px 0;
+}
+.Item{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+.Item img{
+    width: 256px;
+    height: 256px;
+}
+.Item h4{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 50px;
+}
+.Item1{
+    width: 80%;
+    margin: 0 auto;
+}
+.Item1 *{
+    margin: 5px;
+}
+.Item1 .top{
+    display: flex;
+    align-items: center;
+    margin: 50px 0;
+}
+.Item1 .top img{
+    width: 200px;
+    height: 153px;
+}
+.Item1 p {
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: black;
+}
+.Item1 h4 {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 20px;
+}
+.endScann{
+    margin: 100px;
+}
+.Events_end{
+    display: flex;
+    background: #fff;
+    justify-content: center;
+}
+.Events_end img{
+    width: 19vw;
+    height: 20vw;
+}
+@media (max-width: 768px) {
+    .Item h4, .Item1 h4 {
+        font-size: 2.5vw;
+    }
+    .Item img,.Item1 .top img {
+        width: 40%;
+        height: 40%;
+    }
+    .Car div {
+        justify-content: center;
+    }
+    .Events_top h1 {
+        font-size: 6vw;
+    }
+
+    a {
+        font-size: 3vw;
+    }
+
+    .search input {
+        width: 70vw;
+        font-size: 18px;
+    }
+
+    .answers {
+        width: 70vw;
+    }
+
+    .Car {
+        width: 45vw;
+        margin: 10px;
+    }
+    .Car img{
+        width: 10vw;
+    }
+    .Car h3{
+        font-size: 3vw;
+    }
+    .Car p{
+        font-size: 2vw;
+        line-height: 2vw;
+    }
+    .Car * {
+        margin: 2px;
+    }
+}
+@media (max-width: 750px) {
+    .Car div {
+        justify-content: center;
+    }
+
+    .Events_top h1 {
+        font-size: 5vw;
+    }
+
+    a {
+        font-size: 2.5vw;
+    }
+
+    .search input {
+        width: 80vw;
+        font-size: 16px;
+    }
+
+    .answers {
+        width: 80vw;
+        margin-top: -30px;
+    }
+
+    .Car {
+        width: 55vw;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .Car img {
+        width: 15vw;
+    }
+
+    .Car h3 {
+        font-size: 4vw;
+        margin: 10px;
+    }
+
+    .Car p {
+        font-size: 3vw;
+        line-height: 3.5vw;
+    }
+
+    .Car * {
+        margin: 2px;
+    }
+}
+@media (max-width: 500px) {
+    .Car div {
+        justify-content: center;
+    }
+    .Events_top h1 {
+        font-size: 8vw;
+    }
+
+    a {
+        font-size: 4vw;
+    }
+
+    .search input {
+        width: 90vw;
+        font-size: 16px;
+    }
+
+    .answers {
+        width: 90vw;
+        margin-top: -30px;
+    }
+
+    .Car {
+        width: 80vw;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .Car img {
+        width: 20vw;
+    }
+
+    .Car h3 {
+        font-size: 4vw;
+        margin: 10px;
+    }
+
+    .Car p {
+        font-size: 3vw;
+        line-height: 3.4vw;
+    }
+
+    .Car * {
+        margin: 2px;
+    }
 }
